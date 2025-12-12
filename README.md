@@ -1,15 +1,30 @@
-# Rust Game 1
+# RustGame1: [Your Vision – e.g., "A High-Octane 2D Rust-Powered Shooter Engine"]
 
-High-performance game built in Rust.
+## Overview
+A blazing-fast game built in Rust, leveraging [key crates like bevy, ggez, or macroquad?]. Core: [brief mechanics – procedural worlds? Physics sim?].
 
-## Build
+## Quickstart
+### Prerequisites
+- Rust (stable): `rustup update stable`
+
+### Build & Run
+
 cargo build --release
-
-## Run
 cargo run --release
 
-## Features
-- [Your core mechanics]
-- Powered by [crates: bevy, wgpu, etc.?]
 
-More coming as the empire expands.
+## Structure
+- `src/main.rs`: Entry point – game loop, input handling.
+- `src/engine/`: Rendering, physics, ECS.
+- `assets/`: Sprites, sounds (add .gitignore for builds).
+
+## Tech Stack
+- Rust 1.80+
+- [List deps from Cargo.toml]
+
+## Roadmap
+- [Next: Multiplayer? AI foes? Raytracing?]
+
+Contribute? Fork & PR. Issues welcome.
+
+License: MIT.
